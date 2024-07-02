@@ -6,3 +6,5 @@
 - Client.py is ran on the host that we want to connect to. This script has the ip address of the server and creates a connection to it.
 
 - Server.py is ran form the server with a static ip address. It listens and accepts the connections coming from the client hosts.
+
+- With some changes this code can be used to create a p2p network where the both hosts can send the messages to each other.
